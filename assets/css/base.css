@@ -1,0 +1,24 @@
+/* Khai báo các giá trị mặc địch */
+:root {
+    --primary-color: #f65e39;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333; /* Màu chữ chống mỏi mắt khi đọc lâu */
+    --border-color: #bdbdbd;
+}
+
+* {
+    /* kế thừa thuộc tính của thẻ chứa nó */
+    box-sizing: inherit;
+}
+
+html {
+    /* Hack css
+    Khi để font-size = 62.5% => 1rem = 10px 
+    Vd: 1.2rem = 12px, 1.6rem = 16px
+    */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
