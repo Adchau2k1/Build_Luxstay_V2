@@ -2,3 +2,29 @@
 -> Không thể tắt theo dõi file tạo ra trc khi file .gitignore được tạo ra
 
 -- Phân tích giao diện trang Luxstay --
+
+-- Header -- [developing]
+.grid.wide {
+    .row {
+        .col {
+            .header-logo > a > img
+            .header-search {
+                .search-wrapper {
+                .search-field
+                .search-btn
+                }
+            }
+        }
+        
+        .col {
+            .header-menu {
+                .menu-wrapper {
+                ul > li*5
+                }
+            }
+        }
+    }
+}
+
+-- Home-page --
+-- Footer --

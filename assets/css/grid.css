@@ -9,7 +9,7 @@
 }
 
 .grid.wide {
-    max-width: 1200px;
+    max-width: 1212px;
     margin: 0 auto;
 }
 
@@ -306,8 +306,8 @@
 /* PC: >= 1113px */
 @media (min-width: 69.5625em) {
     .row {
-        margin-left: -12px;
-        margin-right: -12px;
+        margin-left: -8px;
+        margin-right: -8px;
     }
 
     .row.sm-gutter {
@@ -316,8 +316,8 @@
     }
 
     .col {
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 
     .row.sm-gutter .col {
@@ -465,12 +465,12 @@
 /*Pc độ phân giải thấp tới cao: 1024px -> 1239px */
 @media (min-width: 64em) and (max-width: 77.4375em) {
     .wide {
-        width: 984px;
+        width: 1012px;
     }
 
     .wide .row {
-        margin-left: -12px;
-        margin-right: -12px;
+        margin-left: -8px;
+        margin-right: -8px;
     }
 
     .wide .row.sm-gutter {
@@ -479,8 +479,8 @@
     }
 
     .wide .col {
-        padding-left: 12px;
-        padding-right: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
 
     .wide .row.sm-gutter .col {

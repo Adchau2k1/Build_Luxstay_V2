@@ -5,6 +5,7 @@
     --black-color: #000;
     --text-color: #333; /* Màu chữ chống mỏi mắt khi đọc lâu */
     --border-color: #bdbdbd;
+    --header-height: 80px;
 }
 
 * {
@@ -20,5 +21,51 @@ html {
     font-size: 62.5%;
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
+    padding: 0;
     box-sizing: border-box;
+}
+
+/* Button css */
+.btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 56px;
+    height: 36px;
+    padding: 0 12px;
+    border: none;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    border-radius: 2px;
+    color: var(--text-color);
+    background-color: var(--white-color);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn.btn--nomal:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn.btn--primary {
+    color: var(--white-color);
+    background-color: var(--main-color);
+}
+
+.btn.btn--disable {
+    cursor: default;
+    background-color: #c3c3c3;
+    color: #777;
+}
+
+/* Header css */
+.booking-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
 }
