@@ -3,7 +3,11 @@
 
 -- Phân tích giao diện trang Luxstay --
 
--- Header -- [developing]
+-- Header -- [developing - 95%]
+-> Add keyframes in search
+-> Fix hover in search-date
+-> Fix button animation
+
 .grid.wide {
     .row {
         .col {
