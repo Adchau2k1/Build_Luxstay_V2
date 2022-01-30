@@ -87,3 +87,32 @@ html {
     right: 3px;
     top: 3px;
 }
+
+.search--outline {
+    z-index: 10;
+    border-radius: 5px;
+    border: 2px solid #dbdbdb;
+}
+
+/* Animation */
+@keyframes pushUp {
+    from {
+        transform: translateY(30%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes FaceIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
