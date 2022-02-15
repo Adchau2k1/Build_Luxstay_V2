@@ -543,6 +543,7 @@
     color: var(--white-color);
 }
 
+/* Begin header menu */
 .header__menu-wrapper {
     display: flex;
     align-items: center;
@@ -738,6 +739,4 @@
     font-size: 1.6rem;
     padding: 0 12px;
 }
-
-
 /* End header css */
