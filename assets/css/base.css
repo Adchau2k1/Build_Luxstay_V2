@@ -27,6 +27,22 @@ html {
     box-sizing: border-box;
 }
 
+.mt--42 {
+    margin-top: 42px !important;
+}
+
+.mt--8 {
+    margin-top: 8px !important;
+}
+
+.mb--12 {
+    margin-bottom: 12px !important;
+}
+
+.mb--16 {
+    margin-bottom: 12px !important;
+}
+
 /* Button css */
 .btn {
     display: inline-flex;
