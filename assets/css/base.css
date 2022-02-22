@@ -43,6 +43,10 @@ html {
     margin-bottom: 12px !important;
 }
 
+.mb--42 {
+    margin-bottom: 42px !important;
+}
+
 /* Button css */
 .btn {
     display: inline-flex;
