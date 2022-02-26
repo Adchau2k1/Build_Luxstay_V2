@@ -35,6 +35,23 @@
     padding-right: 0;
 }
 
+.s-0,
+.s-1,
+.s-2,
+.s-3,
+.s-4,
+.s-5,
+.s-5-5,
+.s-6,
+.s-7,
+.s-8,
+.s-9,
+.s-10,
+.s-11,
+.s-12 {
+    display: block;
+}
+
 .s-0 {
     display: none;
 }
@@ -62,6 +79,11 @@
 .s-5 {
     flex: 0 0 41.66667%;
     max-width: 41.66667%;
+}
+
+.s-5-5 {
+    flex: 0 0 45.83333%;
+    max-width: 45.83333%;
 }
 
 .s-6 {
@@ -151,13 +173,13 @@
 
 /* Mobile: < 740px */
 @media (max-width: 46.1875em){
-    
+
 }
 
 /* Tablet - Pc độ phân giải thấp: 740px -> 1023px */
 @media (min-width: 46.25em) and (max-width: 63.9375em) {
     .wide {
-        width: 644px;
+        min-width: 644px;
     }
 }
 
@@ -182,6 +204,7 @@
     .m-3,
     .m-4,
     .m-5,
+    .m-5-5,
     .m-6,
     .m-7,
     .m-8,
@@ -215,6 +238,11 @@
     .m-5 {
         flex: 0 0 41.66667%;
         max-width: 41.66667%;
+    }
+
+    .m-5-5 {
+        flex: 0 0 45.83333%;
+        max-width: 45.83333%;
     }
     
     .m-6 {
